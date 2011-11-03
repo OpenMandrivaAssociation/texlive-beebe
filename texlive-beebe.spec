@@ -1,5 +1,11 @@
+# revision 24191
+# category Package
+# catalog-ctan undef
+# catalog-date undef
+# catalog-license undef
+# catalog-version undef
 Name:		texlive-beebe
-Version:	20111101
+Version:	20111103
 Release:	1
 Summary:	TeXLive beebe package
 Group:		Publishing
@@ -86,6 +92,7 @@ TeXLive beebe package.
 %{_texmfdistdir}/bibtex/bst/beebe/plainyr.bst
 %{_texmfdistdir}/bibtex/bst/beebe/refer.bst
 %{_texmfdistdir}/bibtex/bst/beebe/xbtxbst.doc
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -96,3 +103,5 @@ TeXLive beebe package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
