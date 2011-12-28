@@ -20,16 +20,8 @@ Requires(post):	texlive-kpathsea
 %description
 TeXLive beebe package.
 
-%pre
-    %{_sbindir}/texlive.post
-
 %post
     %{_sbindir}/texlive.post
-
-%preun
-    if [ $1 -eq 0 ]; then
-	%{_sbindir}/texlive.post
-    fi
 
 %postun
     if [ $1 -eq 0 ]; then
@@ -92,7 +84,6 @@ TeXLive beebe package.
 %{_texmfdistdir}/bibtex/bst/beebe/plainyr.bst
 %{_texmfdistdir}/bibtex/bst/beebe/refer.bst
 %{_texmfdistdir}/bibtex/bst/beebe/xbtxbst.doc
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -103,5 +94,3 @@ TeXLive beebe package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
