@@ -1,11 +1,11 @@
-# revision 25948
+# revision 27123
 # category Package
 # catalog-ctan undef
 # catalog-date undef
 # catalog-license undef
 # catalog-version undef
 Name:		texlive-beebe
-Version:	20120611
+Version:	20120807
 Release:	1
 Summary:	TeXLive beebe package
 Group:		Publishing
