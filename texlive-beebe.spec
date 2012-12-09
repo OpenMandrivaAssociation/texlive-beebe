@@ -94,3 +94,30 @@ TeXLive beebe package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Tue Aug 07 2012 Paulo Andrade <pcpa@mandriva.com.br> 20120807-1
++ Revision: 811970
+- Update to latest release.
+
+* Mon Jun 11 2012 Paulo Andrade <pcpa@mandriva.com.br> 20120611-1
++ Revision: 804467
+- Update to latest release.
+
+* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 20111209-2
++ Revision: 749562
+- Rebuild to reduce used resources
+
+* Fri Dec 09 2011 Paulo Andrade <pcpa@mandriva.com.br> 20111209-1
++ Revision: 739688
+- texlive-beebe
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20111103-1
++ Revision: 717903
+- texlive-beebe
+- texlive-beebe
+- texlive-beebe
+- texlive-beebe
+- texlive-beebe
+
