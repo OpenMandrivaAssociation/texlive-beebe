@@ -1,11 +1,11 @@
-# revision 27123
+# revision 31779
 # category Package
 # catalog-ctan undef
 # catalog-date undef
 # catalog-license undef
 # catalog-version undef
 Name:		texlive-beebe
-Version:	20120807
+Version:	20131013
 Release:	1
 Summary:	TeXLive beebe package
 Group:		Publishing
@@ -54,7 +54,6 @@ TeXLive beebe package.
 %{_texmfdistdir}/bibtex/bst/beebe/bibtoref.bst
 %{_texmfdistdir}/bibtex/bst/beebe/cbe.bst
 %{_texmfdistdir}/bibtex/bst/beebe/chicagoa.bst
-%{_texmfdistdir}/bibtex/bst/beebe/econometrica.bst
 %{_texmfdistdir}/bibtex/bst/beebe/humanbio.bst
 %{_texmfdistdir}/bibtex/bst/beebe/humannat.bst
 %{_texmfdistdir}/bibtex/bst/beebe/is-abbrv.bst
@@ -94,30 +93,3 @@ TeXLive beebe package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Tue Aug 07 2012 Paulo Andrade <pcpa@mandriva.com.br> 20120807-1
-+ Revision: 811970
-- Update to latest release.
-
-* Mon Jun 11 2012 Paulo Andrade <pcpa@mandriva.com.br> 20120611-1
-+ Revision: 804467
-- Update to latest release.
-
-* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 20111209-2
-+ Revision: 749562
-- Rebuild to reduce used resources
-
-* Fri Dec 09 2011 Paulo Andrade <pcpa@mandriva.com.br> 20111209-1
-+ Revision: 739688
-- texlive-beebe
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20111103-1
-+ Revision: 717903
-- texlive-beebe
-- texlive-beebe
-- texlive-beebe
-- texlive-beebe
-- texlive-beebe
-
