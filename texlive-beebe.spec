@@ -1,11 +1,11 @@
-# revision 32911
+# revision 33039
 # category Package
 # catalog-ctan undef
 # catalog-date undef
 # catalog-license undef
 # catalog-version undef
 Name:		texlive-beebe
-Version:	20140215
+Version:	20140317
 Release:	1
 Summary:	TeXLive beebe package
 Group:		Publishing
@@ -83,6 +83,9 @@ TeXLive beebe package.
 %{_texmfdistdir}/bibtex/bst/beebe/plainyr.bst
 %{_texmfdistdir}/bibtex/bst/beebe/refer.bst
 %{_texmfdistdir}/bibtex/bst/beebe/xbtxbst.doc
+%{_texmfdistdir}/tex/generic/beebe/bibnames.sty
+%{_texmfdistdir}/tex/generic/beebe/texnames.sty
+%{_texmfdistdir}/tex/generic/beebe/tugboat.def
 
 #-----------------------------------------------------------------------
 %prep
@@ -92,4 +95,4 @@ TeXLive beebe package.
 
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
-cp -fpar bibtex %{buildroot}%{_texmfdistdir}
+cp -fpar bibtex tex %{buildroot}%{_texmfdistdir}
