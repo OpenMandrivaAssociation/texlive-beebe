@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-beebe
 Version:	20140317
-Release:	1
+Release:	2
 Summary:	TeXLive beebe package
 Group:		Publishing
 URL:		http://tug.org/texlive
