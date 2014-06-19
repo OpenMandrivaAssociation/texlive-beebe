@@ -1,12 +1,12 @@
-# revision 33039
+# revision 33469
 # category Package
 # catalog-ctan undef
 # catalog-date undef
 # catalog-license undef
 # catalog-version undef
 Name:		texlive-beebe
-Version:	20140317
-Release:	2
+Version:	20140619
+Release:	1
 Summary:	TeXLive beebe package
 Group:		Publishing
 URL:		http://tug.org/texlive
