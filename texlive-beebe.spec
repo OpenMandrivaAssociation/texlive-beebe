@@ -1,6 +1,6 @@
 Name:		texlive-beebe
-Version:	20180610
-Release:	2
+Version:	20190211
+Release:	1
 Summary:	TeXLive beebe package
 Group:		Publishing
 URL:		http://tug.org/texlive
