@@ -1,5 +1,5 @@
 Name:		texlive-beebe
-Version:	69012
+Version:	70064
 Release:	1
 Summary:	TeXLive beebe package
 Group:		Publishing
