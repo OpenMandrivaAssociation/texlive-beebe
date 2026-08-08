@@ -1,5 +1,5 @@
 %global tl_name beebe
-%global tl_revision 79654
+%global tl_revision 79891
 
 Name:		texlive-%{tl_name}
 Version:	%{tl_revision}
