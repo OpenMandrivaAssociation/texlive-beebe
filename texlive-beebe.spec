@@ -1,5 +1,5 @@
 %global tl_name beebe
-%global tl_revision 79891
+%global tl_revision 79945
 
 Name:		texlive-%{tl_name}
 Version:	%{tl_revision}
@@ -11,7 +11,7 @@ License:	pd
 Source0:	https://mirrors.ctan.org/systems/texlive/tlnet/archive/beebe.r%{tl_revision}.tar.xz
 BuildArch:	noarch
 BuildSystem:	texlive
-Provides:	texlive(%{tl_name}) = %{tl_revision}
+Provides:	texlive(%{tl_name}) = %{version}
 
 %description
 A collection of BibTeX bibliographies on TeX-related topics (including,
